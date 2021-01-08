@@ -1,0 +1,45 @@
+C:\xampp\mysql\bin>mysql.exe -h localhost -u root -p
+Enter password:
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 8
+Server version: 10.4.17-MariaDB mariadb.org binary distribution
+
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [(none)]> CREATE USER 'arianamoran98'@'%' IDENTIFIED BY 'Ariana1*';
+Query OK, 0 rows affected (0.091 sec)
+
+MariaDB [(none)]> CREATE USER 'josealfredo09'@'%' IDENTIFIED BY 'Alfredo98*';
+Query OK, 0 rows affected (0.093 sec)
+
+MariaDB [(none)]> CREATE USER 'carlosespinoza87'@'%' IDENTIFIED BY 'Carlos87*';
+Query OK, 0 rows affected (0.094 sec)
+
+MariaDB [(none)]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| cert               |
+| information_schema |
+| mysql              |
+| performance_schema |
+| phpmyadmin         |
+| test               |
++--------------------+
+6 rows in set (0.536 sec)
+
+MariaDB [(none)]> grant all privileges on cert.* to 'arianamoran98'@'%';
+Query OK, 0 rows affected (0.089 sec)
+
+MariaDB [(none)]> GRANT CREATE, INSERT, SELECT, UPDATE, DELETE ON cert.incidencias TO 'josealfredo09'@'%';
+Query OK, 0 rows affected (0.088 sec)
+
+MariaDB [(none)]> GRANT CREATE, INSERT, SELECT, UPDATE, DELETE ON cert.categoria TO 'josealfredo09'@'%';
+Query OK, 0 rows affected (0.089 sec)
+
+MariaDB [(none)]> GRANT CREATE, INSERT, SELECT, UPDATE, DELETE ON cert.incidencias TO 'carlosespinoza87'@'%';
+Query OK, 0 rows affected (0.138 sec)
+
+MariaDB [(none)]>

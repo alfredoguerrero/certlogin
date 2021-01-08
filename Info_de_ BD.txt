@@ -1,0 +1,11 @@
+Propietario: (Tiene todos los privilegios en la base de datos CERT)
+username: arianamoran98'@'localhost
+password: Ariana1*
+
+Administrador: CREATE, INSERT, SELECT, UPDATE, DELETE en las tablas incidencias y categorias
+username: josealfredo09'@'localhost
+password: Alfredo98*
+
+Usuario Normal: CREATE, INSERT, SELECT, UPDATE, DELETE en la tabla incidencias
+username: carlosespinoza87'@'localhost
+password: Carlos87*

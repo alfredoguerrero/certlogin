@@ -1,0 +1,29 @@
+ form {
+ 	font-size: 23px;
+	padding: 20px 40px;
+	background-color: #BBE8BE;
+	margin: 100px;
+	margin-top: 0px;
+	padding-top: 20px;
+	margin-bottom: 50px;
+}
+h2 {
+	text-align:left;
+	padding: 20px;
+	color: black;
+	margin: 5px;
+}
+.input-field{
+	font-size: 15px;
+	padding: 0px 0;
+	width: 50%;
+	height: 25px;
+	margin: 6px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 5px solid #1A5276;
+	outline: none;
+	background: #F0F3F4;
+	display: block;
+}
